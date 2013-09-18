@@ -8,8 +8,7 @@
 
   Zent.register('Message', function() {
     this.base('');
-    this.get('zen');
-    this.get('zen.txt');
+    this.get('zen', 'zen.txt');
     this.proto(function() {
       return this.processData = function(data) {
         if (data) {
