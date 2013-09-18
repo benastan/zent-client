@@ -1,0 +1,39 @@
+{
+  "name": "zent-client",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "src/zent.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "benastan/zent-client"
+  },
+  "keywords": [
+    "anonymous",
+    "thought",
+    "stream"
+  ],
+  "author": "Ben Bergstein",
+  "license": "BSD",
+  "dependencies": {
+    "breathe-easy": "*",
+    "browserify": "*",
+    "chai": "*",
+    "grunt": "*",
+    "grunt-cli": "*",
+    "grunt-browserify": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-compress": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-shell": "*",
+    "grunt-mocha": "*",
+    "grunt-env": "*",
+    "grunt-template": "*",
+    "mocha-phantomjs": "*",
+    "mocha": "1.9.0"
+  }
+}
